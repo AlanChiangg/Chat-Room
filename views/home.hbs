@@ -1,0 +1,26 @@
+<div class="join-container">
+  <header class="join-header">
+    <h1><i class="fas fa-smile"></i> Chat Room</h1>
+  </header>
+  <main class="join-main">
+    <form action="/chat">
+      <div class="form-control border-0">
+        <label for="username">Username</label>
+        <input class="rounded border-0" type="text" name="username" id="username" placeholder="Enter username..." required />
+      </div>
+      <div class="form-control border-0">
+        <label for="room">Room</label>
+        <select class="form-select rounded" name="room" id="room">
+          <option value="不分區">不分區</option>
+          <option value="台北市">台北市</option>
+          <option value="新北市">新北市</option>
+          <option value="桃園市">桃園市</option>
+          <option value="台中市">台中市</option>
+          <option value="台南市">台南市</option>
+          <option value="高雄市">高雄市</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">加入聊天</button>
+    </form>
+  </main>
+</div>
