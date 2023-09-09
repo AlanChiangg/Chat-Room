@@ -9,7 +9,7 @@
 
 | Homepage | Chat |
 | --------------- | ---------- |
-| ![Homepage Image](https://github.com/AlanChiangg/Chat-Room/blob/main/images/homepage.jpg) | ![Chat Image](https://github.com/AlanChiangg/Chat-Room/blob/main/images/chat.jpg) |
+| ![Homepage Image](https://github.com/AlanChiangg/Chat-Room/blob/main/public/images/homepage.jpg) | ![Chat Image](https://github.com/AlanChiangg/Chat-Room/blob/main/public/images/chat.jpg) |
 
 
 ## 使用方法
