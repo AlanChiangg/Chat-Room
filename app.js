@@ -13,7 +13,7 @@ app.engine('hbs', engine({ extname: '.hbs' }))
 app.set('view engine', 'hbs')
 app.use(express.static(path.join(__dirname, 'public')))
 
-require('./sockets/sockets')(io)
+require('./controllers/socket-controller')(io)
 
 app.use(routes)
 

@@ -7,7 +7,7 @@ const userList = document.getElementById('users')
 const { username, room } = Qs.parse(location.search, {
   ignoreQueryPrefix: true,
 })
-console.log(username, room)
+// console.log(username, room)
 
 const socket = io()
 
@@ -22,7 +22,7 @@ socket.on('roomUsers', ({ room, users }) => {
 
 // 來自sever的訊息
 socket.on('message', message => {
-  console.log(message)
+  // console.log(message)
   outputMessage(message)
   // 讓最新訊息置底
   chatMessages.scrollTop = chatMessages.scrollHeight
@@ -52,11 +52,11 @@ function outputMessage(message) {
 }
 
 function outputRoomName(room) {
-  roomName.innerText = room
+  roomName.innerHTML = `<i class="fa-solid fa-earth-americas"></i> ${room}`
 }
 
 function outputUsers(users) {
   userList.innerHTML = `
-  ${users.map(user => `<li>${user.username}</li>`).join('')}
+  ${users.map(user => `<li><i class="fa-solid fa-user-astronaut"></i> ${user.username}</li>`).join('')}
   `
 }
