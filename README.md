@@ -3,7 +3,6 @@
 * 這是一個基於 Node.js Express 建立的專案，使用 [Socket.io](https://socket.io/) 達成即時聊天功能。
 
 * 使用者可以分群聊天 - [Socket.io Rooms](https://socket.io/docs/v4/rooms/#default-room)
-* 雲端伺服器佈署：[Render](https://render.com/)
 
 ## Chat-Room畫面
 
